@@ -1,0 +1,54 @@
+.parent {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+    margin: 35px;
+}
+
+.total {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 8px 16px;
+    background-color: #00b894; 
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #019875; 
+    transform: translateY(-2px);
+}
+
+input {
+    font-size: 18px;
+    margin: 5px 0px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+select {
+    font-size: 18px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+
+.Error1, .Error2, .Error3 {
+    color:red;
+    font-size: 15px;
+    padding: 3px; 
+}

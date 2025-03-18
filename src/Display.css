@@ -1,0 +1,91 @@
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    text-align: center;
+    padding: 14px 16px;
+}
+
+th {
+    background-color: #6c5ce7; /* Elegant Purple Header */
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row colors */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Light hover effect */
+}
+
+.table tbody {
+    font-size: 16px;
+    color: #2d3436;
+}
+
+.delete {
+    background-color: #d63031; /* Bright Red */
+    color: #ffffff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.delete:hover {
+    background-color: #e17055; 
+    transform: translateY(-2px);
+}
+
+.edit {
+    background-color: #0984e3; 
+    color: #ffffff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.edit:hover {
+    background-color: #74b9ff; 
+    transform: translateY(-2px);
+}
+
+.income-row {
+    color: #27ae60; 
+    font-weight: 600;
+}
+
+.expense-row {
+    color: #c0392b; 
+    font-weight: 600;
+}
+
+
+.details-cell {
+    font-weight: 500;
+}
+
+.amount-cell {
+    font-weight: 500;
+}
+
+.type-cell {
+    font-style: italic;
+}
+
+
+
